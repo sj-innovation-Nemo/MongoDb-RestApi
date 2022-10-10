@@ -1,0 +1,43 @@
+/* .header {
+  width: 100%;
+  height: 90px;
+  display: block;
+  background-color: darkcyan;
+  position: sticky;
+
+} */
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: darkcyan;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.text{
+   display: flex;
+  margin-left: 500px;
+  color: aliceblue;
+
+  /* width: 100%;  */
+  flex: auto;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.button-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
